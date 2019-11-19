@@ -4,9 +4,9 @@ const client = new Discord.Client();
 
 let channels;
 let data = null;
-let token = "";
-let voiceLogChannel = "";
-let prefix = "";
+let token = "NjM5NDYyNjA2OTQ3NjE0NzMw.XdOBkQ.ti3PtXfpQHDX1iQEdskBAD84Lv4";
+let voiceLogChannel = "646215577807093760";
+let prefix = "!";
 
 client.on('ready', () => {
 	console.log(`Logged in as ${client.user.username}!`);
